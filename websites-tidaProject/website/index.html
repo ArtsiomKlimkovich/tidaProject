@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="ui.css">
+
+</head>
+<body>
+    
+    <div id = "loginBody">
+       <form action="/login" method="POST" onsubmit="event.preventDefault(); init();">
+        <label for="log">Login</label>
+        <input type="text" required id="log" name="log"><br>
+        
+        <label for="pass">Password</label>
+        <input type="password" required id="pass" name="pass"><br>
+        <input type="submit" value="LOG IN"> 
+       </form>
+       
+
+
+    </div>
+    <div id="registerBody">
+
+    </div>
+    <div id="dataBody">
+
+    </div>
+
+</body>
+
+<script type="module" src="/Script.js" >
+
+
+</script>
+</html>
