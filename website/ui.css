@@ -1,0 +1,80 @@
+@keyframes loginAnmiationBox{
+    0% {background-image: linear-gradient(37deg, black,white,silver,grey);}
+    33% {background-image: linear-gradient(37deg, white,silver,grey,black);}
+    66%{background-image: linear-gradient(37deg, silver,grey,black,white);}
+    99%{background-image: linear-gradient(37deg, grey,black,white, silver);}
+    
+
+}
+
+body{
+background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+div#loginBody{
+    position: relative;
+    left: 40%;
+    top: 120px;
+    height:250px;
+    width: 300px;
+    border: 30px ;
+    background-image: linear-gradient(37deg, white,silver,grey);
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 150px;
+    display: block;
+    opacity: 0.9;
+    border-radius: 15%;
+    animation-name: loginAnmiationBox;
+   animation-duration: 0.7s;
+   animation-iteration-count: infinite;
+    
+}
+
+div#loginBody input{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+   
+
+
+}
+div#loginBody input[type=text],input[type=password]{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #162938;
+   
+    
+    
+
+}
+
+div#loginBody label{
+    position: absolute;
+    left:17%;
+    font-size: 16px;
+    transform:translateY(-75%);
+    
+}
+div#loginBody input[type=submit]{
+    margin-left: 60px;
+    height: 20px;
+    width: 100px;
+    margin-bottom: 15px;
+
+}
+div#loginBody input[type=submit]:hover{
+    height: 30px;
+    margin-bottom: 15px;
+    
+
+}

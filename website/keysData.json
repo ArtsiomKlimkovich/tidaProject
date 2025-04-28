@@ -1,0 +1,88 @@
+[
+  {
+    "key": "Entrance",
+    "school": "Technikum19",
+    "name": "Polcyn",
+    "isLocked": false,
+    "keyTakenDate": "28.04.2025",
+    "keyTakenTime": "22:44",
+    "keyGivenDate": "28.04.2025",
+    "keyGivenTime": "22:46"
+  },
+  {
+    "key": "A21",
+    "school": "Technikum19",
+    "name": "asdf",
+    "isLocked": false,
+    "keyTakenDate": "28.04.2025",
+    "keyTakenTime": "22:46",
+    "keyGivenDate": "28.04.2025",
+    "keyGivenTime": "22:46"
+  },
+  {
+    "key": "A22",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A23",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A24",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A25",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A26",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A27",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "A28",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "B15",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "B16",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "B23",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  },
+  {
+    "key": "B25",
+    "school": "Technikum19",
+    "name": "",
+    "isLocked": false
+  }
+]

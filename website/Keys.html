@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Management System</title>
+    <link rel="stylesheet" href="key.css">
+    <style>
+        .key-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .locked {
+            background-color: #ffe6e6;
+        }
+        .unlocked {
+            background-color: #e6ffe6;
+        }
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+            border-radius: 5px 5px 0 0;
+        }
+        .tab.active {
+            background-color: #f0f0f0;
+            border-bottom: none;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body onload="loadKeys()">
+    <h1>Key Management System</h1>
+    <div class="header-buttons">
+        <button onclick="window.location.href='LockedKeys.html'" class="view-locked">View All Locked Keys</button>
+    </div>
+    <div class="tabs">
+        <div class="tab active" onclick="switchTab('all')">All Keys</div>
+        <div class="tab" onclick="switchTab('locked')">Locked Keys</div>
+    </div>
+    
+    <div id="allKeys" class="tab-content active">
+        <h2>All Keys</h2>
+        <div id="keysContainer"></div>
+    </div>
+    
+    <div id="lockedKeys" class="tab-content">
+        <h2>Locked Keys</h2>
+        <div id="lockedKeysContainer"></div>
+    </div>
+
+    <script type="module" src="Script.js"></script>
+</body>
+</html>

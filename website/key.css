@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(50deg, white, gray, black);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.header-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    margin-bottom: 20px;
+}
+
+.key-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.locked {
+    background-color: #ffe6e6;
+    border-left: 4px solid #ff4d4d;
+}
+
+.unlocked {
+    background-color: #e6ffe6;
+    border-left: 4px solid #4CAF50;
+}
+
+.key-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:not(:disabled) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+button[onclick*="checkOut"] {
+    background-color: #f44336;
+}
+
+button[onclick*="checkOut"]:hover:not(:disabled) {
+    background-color: #d32f2f;
+}
+
+.view-locked {
+    background-color: #2196F3;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.view-locked:hover {
+    background-color: #0b7dda;
+}
+
+.no-keys {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin: 20px 0;
+}
